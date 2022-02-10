@@ -1,6 +1,6 @@
-# Contract Clause Generator Psuedo Code
+# Contract Clause Generator Pseudo Code
 
-## Psuedo
+## Pseudo
 
 This is the general direction for the clause generator. MVP can be acieved via questions answered on the console.
 
