@@ -43,18 +43,18 @@ namespace contract_clause_generator
                     q2 = Console.ReadLine();
                     break;
                 };
-                if (q2 == "YES" || q2 == "Y")
+                if ((q2.Equals("YES")) || (q2.Equals("Y")))
                 {
                     Console.WriteLine("Is your purchase above $3.5K?");
                     q3 = Console.ReadLine();
                     q3 = q3.ToUpper();
-                    while (q3 != "YES" || q3 != "Y" || q3 != "NO" || q3 != "N")
+                    while (!(q3.Equals("YES")) || (q3.Equals("Y")) || (q3.Equals("NO")) || (q3.Equals("N")))
                     {
                         Console.WriteLine("Please answer Yes (y) or No (n)!");
                         q3 = Console.ReadLine();
                         break;
                     };
-                    if (q3 == "YES" || q3 == "Y")
+                    if ((q3.Equals("YES")) || (q3.Equals("Y")))
                     {
                         Console.WriteLine("Thank you! you're clauses will be generated");
                         //using (StreamReader sr = new StreamReader("/Users/joshuamccluskey/Desktop/cazure/clauses/clausesTemplate1.txt"))
@@ -71,24 +71,24 @@ namespace contract_clause_generator
                     Console.WriteLine("Is your purchase below $30K?");
                     q4 = Console.ReadLine();
                     q4 = q4.ToUpper();
-                    while (q4 != "YES" || q4 != "Y" || q4 != "NO" || q4 != "N")
+                    while (!(q4.Equals("YES")) || (q4.Equals("Y")) || (q4.Equals("NO")) || (q4.Equals("N")))
                     {
                         Console.WriteLine("Please answer Yes (y) or No (n)!");
                         q4 = Console.ReadLine();
                         break;
                     }
-                    if (q4 == "YES" || q4 == "Y")
+                    if ((q4.Equals("YES")) || (q4.Equals("Y")))
                     {
                         Console.WriteLine("Is your purchase above $3.5K?");
                         q5 = Console.ReadLine();
                         q5 = q5.ToUpper();
-                        while (q5 != "YES" || q5 != "Y" || q5 != "NO" || q5 != "N")
+                        while (!(q5.Equals("YES")) || (q5.Equals("Y")) || (q5.Equals("NO")) || (q5.Equals("N")))
                         {
                             Console.WriteLine("Please answer Yes (y) or No (n)!");
                             q5 = Console.ReadLine();
                             break;
                         }
-                        if (q5 == "YES" || q5 == "Y")
+                        if ((q5.Equals("YES")) || (q5.Equals("Y")))
                         {
                             Console.WriteLine("Thank you! you're clauses will be generated");
                             //        using (StreamReader sr = new StreamReader("/Users/joshuamccluskey/Desktop/cazure/clauses/clausesTemplate2.txt"))
