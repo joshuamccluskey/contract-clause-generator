@@ -1,10 +1,18 @@
 ﻿using System;
 using System.IO;
+using System.Text.Json;
+
 
 namespace contract_clause_generator
 {
     class Program
     {
+        public class WeatherForecast
+        {
+            public DateTimeOffset Date { get; set; }
+            public int TemperatureCelsius { get; set; }
+            public string? Summary { get; set; }
+        }
         static void Main(string[] args)
         {
             string q1;
@@ -12,8 +20,16 @@ namespace contract_clause_generator
             string q3;
             string q4;
             string q5;
-            String q6;
+
             String ln = "";
+
+            string fileName = "/Users/joshuamccluskey/Desktop/cazure/clauses/WeatherForecast.json";
+            string jsonString = File.ReadAllText(fileName);
+            WeatherForecast weatherForecast = JsonSerializer.Deserialize<WeatherForecast>(jsonString)!;
+
+            Console.WriteLine($"Date: {weatherForecast.Date}");
+            Console.WriteLine($"TemperatureCelsius: {weatherForecast.TemperatureCelsius}");
+            Console.WriteLine($"Summary: {weatherForecast.Summary}");
 
             Console.WriteLine("Welcome to Clause Generator\n");
             Console.WriteLine("Please answer the following questions\n");
@@ -116,7 +132,7 @@ namespace contract_clause_generator
                     }
                     else
                     {
-                        Console.WriteLine("Please Look Over Your Purachse Details and Requiremetns Again😰⚠️‼️");
+                        Console.WriteLine("Please Look Over Your Purachse Details and Requirements Again😰⚠️‼️");
                     }
 
                 }
