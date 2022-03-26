@@ -13,6 +13,14 @@ namespace contract_clause_generator
             public int TemperatureCelsius { get; set; }
             public string? Summary { get; set; }
         }
+
+        public class Clauses
+        {
+            public string Clause { get; set; }
+            public string Codify { get; set; }
+            public string Title { get; set; }
+            public string Body { get; set; }
+        }
         static void Main(string[] args)
         {
             // Complete: Anticipate more edge cases
@@ -38,15 +46,20 @@ namespace contract_clause_generator
             Console.WriteLine($"TemperatureCelsius: {weatherForecast.TemperatureCelsius}");
             Console.WriteLine($"Summary: {weatherForecast.Summary}");
 
+
+            fileName = "/Users/joshuamccluskey/Desktop/cazure/clauses/Clauses.json";
+            jsonString = File.ReadAllText(fileName);
+            Clauses clauses = JsonSerializer.Deserialize<Clauses>(jsonString)!;
+            Console.WriteLine($"Code: {clauses.Codify}");
+            Console.WriteLine($"Name: {clauses.Title}");
+            Console.WriteLine($"Body: {clauses.Body}");
+
             //MainProgram
 
             Console.WriteLine("Welcome to Clause Generator\n");
             Console.WriteLine("Please answer the following questions\n");
             Console.WriteLine("Once complete your clauses will be generated!\n");
             Console.WriteLine("Is your purchase for supplies below $150K ?");
-
-            
-
 
             q1 = Console.ReadLine();
             q1 = q1.ToUpper();
@@ -146,4 +159,6 @@ namespace contract_clause_generator
             }
         }
     }
+
+
 }
