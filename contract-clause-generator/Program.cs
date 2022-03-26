@@ -15,6 +15,11 @@ namespace contract_clause_generator
         }
         static void Main(string[] args)
         {
+            // Complete: Anticipate more edge cases
+            // Stretch: Try to make a form application instead of using console
+            // Complete: Stretch: Read JSON files instead of templates
+            // Stretch this logic to for service contracts
+            //
             string q1;
             string q2;
             string q3;
@@ -22,6 +27,8 @@ namespace contract_clause_generator
             string q5;
 
             String ln = "";
+
+            //JSON Deserializer
 
             string fileName = "/Users/joshuamccluskey/Desktop/cazure/clauses/WeatherForecast.json";
             string jsonString = File.ReadAllText(fileName);
@@ -31,15 +38,15 @@ namespace contract_clause_generator
             Console.WriteLine($"TemperatureCelsius: {weatherForecast.TemperatureCelsius}");
             Console.WriteLine($"Summary: {weatherForecast.Summary}");
 
+            //MainProgram
+
             Console.WriteLine("Welcome to Clause Generator\n");
             Console.WriteLine("Please answer the following questions\n");
             Console.WriteLine("Once complete your clauses will be generated!\n");
             Console.WriteLine("Is your purchase for supplies below $150K ?");
 
-            // Repeat this logic to for service contracts 
-            // Anticipate more edge cases
-            // Stretch: Try to make a form application instead of using console
-            // Stretch: Read JSON files instead of templates
+            
+
 
             q1 = Console.ReadLine();
             q1 = q1.ToUpper();
