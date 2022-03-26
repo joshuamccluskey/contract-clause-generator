@@ -11,7 +11,7 @@ namespace contract_clause_generator
         {
             public DateTimeOffset Date { get; set; }
             public int TemperatureCelsius { get; set; }
-            public string? Summary { get; set; }
+            public string Summary { get; set; }
         }
 
         public class Clauses
