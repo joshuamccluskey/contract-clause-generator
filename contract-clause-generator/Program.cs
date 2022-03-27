@@ -11,57 +11,44 @@ namespace contract_clause_generator
 
         static void Main(string[] args)
         {
-            // Complete: Anticipate more edge cases
-            // Stretch: Try to make a form application instead of using console
-            // Complete: Stretch: Read JSON files instead of templates
-            // Stretch this logic to for service contracts
-            //
+            // Complete: Stretch: Read JSON files instead of templates        
+          contractGenerator();
 
-            //JSON Deserializer Method
-            //Need to build way to differentiate the Json clauses
+        }
 
-            string fileName = "/Users/joshuamccluskey/Desktop/cazure/clauses/Clauses.json";
+      public static void clauseJSONParser(string path)
+        {
+            string fileName = path;
             string jsonString = File.ReadAllText(fileName);
-            
+
 
             List<Clause> clauses = JsonConvert.DeserializeObject<List<Clause>>(jsonString);
-            foreach(var clause in clauses)
+            foreach (var clause in clauses)
             {
-                
-                    Console.WriteLine(clause.Codify);
-                    Console.WriteLine();
-                    Console.WriteLine(clause.Title);
-                    Console.WriteLine();
-                    Console.WriteLine(clause.Body);
-                    Console.WriteLine();
+
+                Console.WriteLine(clause.Codify);
+                Console.WriteLine();
+                Console.WriteLine(clause.Title);
+                Console.WriteLine();
+                Console.WriteLine(clause.Body);
+                Console.WriteLine();
 
 
 
             }
-            //  if (clauses[0].Equals("52.212-5"))
-            //{
-            //    Console.WriteLine($"Code: {clauses[0].Codify}");
-            //    Console.WriteLine();
-            //    Console.WriteLine($"Name: {clauses[0].Title}");
-            //    Console.WriteLine();
-            //    Console.WriteLine($"Body: {clauses[0].Body}");
-            //    Console.WriteLine();
-            //}
-           
-            contractGenerator();
 
         }
 
-      
+
 
         public static void contractGenerator()
         {
 
-            string q1;
-            string q2;
-            string q3;
-            string q4;
-            string q5;
+            string question1;
+            string question2;
+            string question3;
+            string question4;
+            string question5;
             string ln = "";
 
             Console.WriteLine("Welcome to Clause Generator\n");
@@ -69,88 +56,82 @@ namespace contract_clause_generator
             Console.WriteLine("Once complete your clauses will be generated!\n");
             Console.WriteLine("Is your purchase for supplies below $150K ?");
 
-            q1 = Console.ReadLine();
-            q1 = q1.ToUpper();
-            while (!(q1.Equals("YES") || (q1.Equals("Y")) || (q1.Equals("NO")) || (q1.Equals("N"))))
+            question1 = Console.ReadLine();
+            question1 = question1.ToUpper();
+            while (!(question1.Equals("YES") || (question1.Equals("Y")) || (question1.Equals("NO")) || (question1.Equals("N"))))
             {
                 Console.WriteLine("Please answer Yes (y) or No (n)!");
-                q1 = Console.ReadLine();
-                q1 = q1.ToUpper();
+                question1 = Console.ReadLine();
+                question1 = question1.ToUpper();
             }
-            if (q1.Equals("NO") || q1.Equals("N"))
+            if (question1.Equals("NO") || question1.Equals("N"))
                 Console.WriteLine("Contract Clause Generator Currently Doesn't Support Contracts Above $150K 😰⚠️‼️");
 
-            if (q1.Equals("YES") || q1.Equals("Y"))
+            if (question1.Equals("YES") || question1.Equals("Y"))
             {
                 Console.WriteLine("Is your purchase above $35K?");
-                q2 = Console.ReadLine();
-                q2 = q2.ToUpper();
-                while (!(q2.Equals("YES") || (q2.Equals("Y")) || (q2.Equals("NO")) || (q2.Equals("N"))))
+                question2 = Console.ReadLine();
+                question2 = question2.ToUpper();
+                while (!(question2.Equals("YES") || (question2.Equals("Y")) || (question2.Equals("NO")) || (question2.Equals("N"))))
                 {
                     Console.WriteLine("Please answer Yes (y) or No (n)!");
-                    q2 = Console.ReadLine();
+                    question2 = Console.ReadLine();
                     break;
                 };
-                if ((q2.Equals("YES")) || (q2.Equals("Y")))
+                if ((question2.Equals("YES")) || (question2.Equals("Y")))
                 {
                     Console.WriteLine("Is your purchase above $3.5K?");
-                    q3 = Console.ReadLine();
-                    q3 = q3.ToUpper();
-                    while (!(q3.Equals("YES") || (q3.Equals("Y")) || (q3.Equals("NO")) || (q3.Equals("N"))))
+                    question3 = Console.ReadLine();
+                    question3 = question3.ToUpper();
+                    while (!(question3.Equals("YES") || (question3.Equals("Y")) || (question3.Equals("NO")) || (question3.Equals("N"))))
                     {
                         Console.WriteLine("Please answer Yes (y) or No (n)!");
-                        q3 = Console.ReadLine();
+                        question3 = Console.ReadLine();
                         break;
                     };
-                    if ((q3.Equals("YES")) || (q3.Equals("Y")))
+                    if ((question3.Equals("YES")) || (question3.Equals("Y")))
                     {
+                        //This will generrate the clauses needed for supply contracts that are above $35K
                         Console.WriteLine("Thank you! Your Clauses Are Being Generated 🤗🎊🎉🙌");
-                        using (StreamReader sr = new StreamReader("/Users/joshuamccluskey/Desktop/cazure/clauses/clausesTemplate1.txt"))
-                        {
-                            while ((ln = sr.ReadLine()) != null)
-                            {
-                                Console.WriteLine(ln);
-                            }
-                        }
+                        string path = "/Users/joshuamccluskey/Desktop/contract-clause-generator/contract-clause-generator/clausesAbove35K.json";
+                        clauseJSONParser(path);
+                        Console.WriteLine("Thank you for using Contract Clause Generator!!! 🤗🎊🎉🙌");
+
                     }
                     else
                     {
-                        Console.WriteLine("Please Use Your Government Purchase Card 💳 for this purchase  🤗🎊🎉🙌 !");
+                        Console.WriteLine("Please Use Your Government Purchase Card 💳 for this purchase. Thank you for using Contract Clause Generator!!!  🤗🎊🎉🙌 !");
                     }
                 }
                 else
                 {
                     Console.WriteLine("Is your purchase below $30K?");
-                    q4 = Console.ReadLine();
-                    q4 = q4.ToUpper();
-                    while (!(q4.Equals("YES") || (q4.Equals("Y")) || (q4.Equals("NO")) || (q4.Equals("N"))))
+                    question4 = Console.ReadLine();
+                    question4 = question4.ToUpper();
+                    while (!(question4.Equals("YES") || (question4.Equals("Y")) || (question4.Equals("NO")) || (question4.Equals("N"))))
                     {
                         Console.WriteLine("Please answer Yes (y) or No (n)!");
-                        q4 = Console.ReadLine();
+                        question4 = Console.ReadLine();
                         break;
                     }
-                    if ((q4.Equals("YES")) || (q4.Equals("Y")))
+                    if ((question4.Equals("YES")) || (question4.Equals("Y")))
                     {
                         Console.WriteLine("Is your purchase above $3.5K?");
-                        q5 = Console.ReadLine();
-                        q5 = q5.ToUpper();
-                        while (!(q5.Equals("YES") || (q5.Equals("Y")) || (q5.Equals("NO")) || (q5.Equals("N"))))
+                        question5 = Console.ReadLine();
+                        question5 = question5.ToUpper();
+                        while (!(question5.Equals("YES") || (question5.Equals("Y")) || (question5.Equals("NO")) || (question5.Equals("N"))))
                         {
                             Console.WriteLine("Please answer Yes (y) or No (n)!");
-                            q5 = Console.ReadLine();
+                            question5 = Console.ReadLine();
                             break;
                         }
-                        if ((q5.Equals("YES")) || (q5.Equals("Y")))
+                        if ((question5.Equals("YES")) || (question5.Equals("Y")))
                         {
                             Console.WriteLine("Thank you! Your Clauses Are Being Generated 🤗🎊🎉🙌");
 
-                            using (StreamReader sr = new StreamReader("/Users/joshuamccluskey/Desktop/cazure/clauses/clausesTemplate2.txt"))
-                            {
-                                while ((ln = sr.ReadLine()) != null)
-                                {
-                                    Console.WriteLine(ln);
-                                }
-                            }
+                            string path = "/Users/joshuamccluskey/Desktop/contract-clause-generator/contract-clause-generator/clausesBelow35K.json";
+                            clauseJSONParser(path);
+                            Console.WriteLine("Thank you for using Contract Clause Generator!!! 🤗🎊🎉🙌");
                         }
                         else
                         {
