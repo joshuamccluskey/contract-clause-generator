@@ -8,7 +8,6 @@ namespace contract_clause_generator
     class Program
     {
 
-
         static void Main(string[] args)
         {
             // Complete: Stretch: Read JSON files instead of templates        
@@ -20,23 +19,29 @@ namespace contract_clause_generator
         {
             string fileName = path;
             string jsonString = File.ReadAllText(fileName);
+            string clauseFilename = "clausesGenerated.txt";
+            string clauseFileLocaiton = "/Users/joshuamccluskey/Desktop/contract-clause-generator/contract-clause-generator/" + clauseFilename ;
 
 
-            List<Clause> clauses = JsonConvert.DeserializeObject<List<Clause>>(jsonString);
-            foreach (var clause in clauses)
+            List <Clause> clauses = JsonConvert.DeserializeObject<List<Clause>>(jsonString);
+            using (StreamWriter writer = new StreamWriter(clauseFileLocaiton))
             {
+                foreach (var clause in clauses)
+                {
 
-                Console.WriteLine(clause.Codify);
-                Console.WriteLine();
-                Console.WriteLine(clause.Title);
-                Console.WriteLine();
-                Console.WriteLine(clause.Body);
-                Console.WriteLine();
+                    writer.Write(clause.Codify + "\n" + clause.Title + "\n" + clause.Body + "\n");
+
+                    Console.WriteLine(clause.Codify);
+                    Console.WriteLine();
+                    Console.WriteLine(clause.Title);
+                    Console.WriteLine();
+                    Console.WriteLine(clause.Body);
+                    Console.WriteLine();
 
 
 
+                }
             }
-
         }
 
 
