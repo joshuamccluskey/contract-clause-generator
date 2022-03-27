@@ -11,42 +11,55 @@ namespace contract_clause_generator
         static void Main(string[] args)
         {
             // Complete: Stretch: Read JSON files instead of templates        
-          contractGenerator();
+          contractClauseGenerator();
 
         }
 
-      public static void clauseJSONParser(string path)
+      public static void clauseJSONParserWriter(string path)
         {
             string fileName = path;
             string jsonString = File.ReadAllText(fileName);
-            string clauseFilename = "clausesGenerated.txt";
-            string clauseFileLocaiton = "/Users/joshuamccluskey/Desktop/contract-clause-generator/contract-clause-generator/" + clauseFilename ;
+            string clauseFilename = " ";
+            string username = " ";
+            string email = " ";
+            string phone = " ";
+            string comments = " ";
+            
 
 
             List <Clause> clauses = JsonConvert.DeserializeObject<List<Clause>>(jsonString);
+            DateTime timeDateNow = DateTime.Now;
+
+            Console.WriteLine("Thank you! 🙏 Please answer the following:");
+            Console.WriteLine("Please enter your name");
+            username = Console.ReadLine();
+            Console.WriteLine("Please enter your email");
+            email = Console.ReadLine();
+            Console.WriteLine("Please enter your phone number");
+            phone = Console.ReadLine();
+            Console.WriteLine("Please enter any amendments or comments");
+            comments = Console.ReadLine();
+            Console.WriteLine("Please enter your file name");
+            clauseFilename = Console.ReadLine();
+            Console.WriteLine("Your Clauses Are Being Generated 🤗🎊 🎉🙌 .....");
+
+            string clauseFileLocaiton = "/Users/joshuamccluskey/Desktop/contract-clause-generator/contract-clause-generator/" + clauseFilename + ".txt";
             using (StreamWriter writer = new StreamWriter(clauseFileLocaiton))
             {
+                writer.Write($"Prepared by : {username}\nEmail: {email}\n Phone: {phone}\nDate: {timeDateNow}\n\n");
                 foreach (var clause in clauses)
                 {
 
                     writer.Write(clause.Codify + "\n" + clause.Title + "\n" + clause.Body + "\n");
 
-                    Console.WriteLine(clause.Codify);
-                    Console.WriteLine();
-                    Console.WriteLine(clause.Title);
-                    Console.WriteLine();
-                    Console.WriteLine(clause.Body);
-                    Console.WriteLine();
-
-
-
                 }
+                writer.Write($"\n\n Amendments/Comments: {comments} \n\n (End of Contract Language)");
             }
         }
 
 
 
-        public static void contractGenerator()
+        public static void contractClauseGenerator()
         {
 
             string question1;
@@ -54,7 +67,6 @@ namespace contract_clause_generator
             string question3;
             string question4;
             string question5;
-            string ln = "";
 
             Console.WriteLine("Welcome to Clause Generator\n");
             Console.WriteLine("Please answer the following questions\n");
@@ -97,10 +109,9 @@ namespace contract_clause_generator
                     if ((question3.Equals("YES")) || (question3.Equals("Y")))
                     {
                         //This will generrate the clauses needed for supply contracts that are above $35K
-                        Console.WriteLine("Thank you! Your Clauses Are Being Generated 🤗🎊🎉🙌");
                         string path = "/Users/joshuamccluskey/Desktop/contract-clause-generator/contract-clause-generator/clausesAbove35K.json";
-                        clauseJSONParser(path);
-                        Console.WriteLine("Thank you for using Contract Clause Generator!!! 🤗🎊🎉🙌");
+                        clauseJSONParserWriter(path);
+                        Console.WriteLine("Thank you for using Contract Clause Generator!!! Your clauses have been generated!!! 🤗🎊🎉🙌");
 
                     }
                     else
@@ -132,11 +143,10 @@ namespace contract_clause_generator
                         }
                         if ((question5.Equals("YES")) || (question5.Equals("Y")))
                         {
-                            Console.WriteLine("Thank you! Your Clauses Are Being Generated 🤗🎊🎉🙌");
-
+                            //This will generrate the clauses needed for supply contracts that are below $35K
                             string path = "/Users/joshuamccluskey/Desktop/contract-clause-generator/contract-clause-generator/clausesBelow35K.json";
-                            clauseJSONParser(path);
-                            Console.WriteLine("Thank you for using Contract Clause Generator!!! 🤗🎊🎉🙌");
+                            clauseJSONParserWriter(path);
+                            Console.WriteLine("Thank you for using Contract Clause Generator!!! Your clauses have been generated!!! 🤗🎊🎉🙌");
                         }
                         else
                         {
