@@ -1,26 +1,14 @@
 ﻿using System;
 using System.IO;
-using System.Text.Json;
-
+using System.Collections.Generic;
+using Newtonsoft.Json;
 
 namespace contract_clause_generator
 {
     class Program
     {
-        public class WeatherForecast
-        {
-            public DateTimeOffset Date { get; set; }
-            public int TemperatureCelsius { get; set; }
-            public string Summary { get; set; }
-        }
 
-        public class Clauses
-        {
-            public string Clause { get; set; }
-            public string Codify { get; set; }
-            public string Title { get; set; }
-            public string Body { get; set; }
-        }
+
         static void Main(string[] args)
         {
             // Complete: Anticipate more edge cases
@@ -28,33 +16,53 @@ namespace contract_clause_generator
             // Complete: Stretch: Read JSON files instead of templates
             // Stretch this logic to for service contracts
             //
+
+            //JSON Deserializer Method
+            //Need to build way to differentiate the Json clauses
+
+            string fileName = "/Users/joshuamccluskey/Desktop/cazure/clauses/Clauses.json";
+            string jsonString = File.ReadAllText(fileName);
+            
+
+            List<Clause> clauses = JsonConvert.DeserializeObject<List<Clause>>(jsonString);
+            foreach(var clause in clauses)
+            {
+                
+                    Console.WriteLine(clause.Codify);
+                    Console.WriteLine();
+                    Console.WriteLine(clause.Title);
+                    Console.WriteLine();
+                    Console.WriteLine(clause.Body);
+                    Console.WriteLine();
+
+
+
+            }
+            //  if (clauses[0].Equals("52.212-5"))
+            //{
+            //    Console.WriteLine($"Code: {clauses[0].Codify}");
+            //    Console.WriteLine();
+            //    Console.WriteLine($"Name: {clauses[0].Title}");
+            //    Console.WriteLine();
+            //    Console.WriteLine($"Body: {clauses[0].Body}");
+            //    Console.WriteLine();
+            //}
+           
+            contractGenerator();
+
+        }
+
+      
+
+        public static void contractGenerator()
+        {
+
             string q1;
             string q2;
             string q3;
             string q4;
             string q5;
-
-            String ln = "";
-
-            //JSON Deserializer
-
-            string fileName = "/Users/joshuamccluskey/Desktop/cazure/clauses/WeatherForecast.json";
-            string jsonString = File.ReadAllText(fileName);
-            WeatherForecast weatherForecast = JsonSerializer.Deserialize<WeatherForecast>(jsonString)!;
-
-            Console.WriteLine($"Date: {weatherForecast.Date}");
-            Console.WriteLine($"TemperatureCelsius: {weatherForecast.TemperatureCelsius}");
-            Console.WriteLine($"Summary: {weatherForecast.Summary}");
-
-
-            fileName = "/Users/joshuamccluskey/Desktop/cazure/clauses/Clauses.json";
-            jsonString = File.ReadAllText(fileName);
-            Clauses clauses = JsonSerializer.Deserialize<Clauses>(jsonString)!;
-            Console.WriteLine($"Code: {clauses.Codify}");
-            Console.WriteLine($"Name: {clauses.Title}");
-            Console.WriteLine($"Body: {clauses.Body}");
-
-            //MainProgram
+            string ln = "";
 
             Console.WriteLine("Welcome to Clause Generator\n");
             Console.WriteLine("Please answer the following questions\n");
@@ -71,7 +79,7 @@ namespace contract_clause_generator
             }
             if (q1.Equals("NO") || q1.Equals("N"))
                 Console.WriteLine("Contract Clause Generator Currently Doesn't Support Contracts Above $150K 😰⚠️‼️");
-        
+
             if (q1.Equals("YES") || q1.Equals("Y"))
             {
                 Console.WriteLine("Is your purchase above $35K?");
@@ -146,19 +154,16 @@ namespace contract_clause_generator
                         }
                         else
                         {
-                        Console.WriteLine("Please Use Your Government Purchase Card 💳 for this purchase  🤗🎊🎉🙌!");
+                            Console.WriteLine("Please Use Your Government Purchase Card 💳 for this purchase  🤗🎊🎉🙌!");
                         }
-                      
+
                     }
                     else
                     {
                         Console.WriteLine("Please Look Over Your Purachse Details and Requirements Again😰⚠️‼️");
                     }
-
                 }
             }
         }
     }
-
-
 }
