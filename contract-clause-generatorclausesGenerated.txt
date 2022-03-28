@@ -1,0 +1,204 @@
+Prepared by : Joshua McCluskey
+Date: 3/27/2022 12:05:15 AM
+
+FAR
+
+
+FAR 52.212-5
+Contract Terms and Conditions Required To Implement Statutes or Executive Orders—Commercial Items (Jul 2021) (Deviation 2020-11) (Aug 2020) (Deviation 2020-05) (Apr 2020) (Deviation 2017-05)(Sept 2017)
+ (a) The Contractor shall comply with the following Federal Acquisition Regulation (FAR) clauses, which are incorporated in this contract by reference, to implement provisions of law or Executive orders applicable to acquisitions of commercial items:
+(1) 52.203-19, Prohibition on Requiring Certain Internal Confidentiality Agreements or Statements (JAN 2017) (section 743 of Division E, Title VII, of the Consolidated and Further Continuing Appropriations Act, 2015 (Pub. L. 113-235) and its successor provisions in subsequent appropriations acts (and as extended in continuing resolutions)).
+(2) 52.204-23, Prohibition on Contracting for Hardware, Software, and Services Developed or Provided by Kaspersky Lab and Other Covered Entities (Jul 2018) (Section 1634 of Pub. L. 115-91). (3) 52.204-25, Prohibition on Contracting for Certain Telecommunications and Video Surveillance Services or Equipment. (Aug 2020) (Section 889(a)(1)(A) of Pub. L. 115-232).
+(4) 52.209-10, Prohibition on Contracting with Inverted Domestic Corporations (Nov 2015).
+(5) 52.233-3, Protest After Award (AUG 1996) (31 U.S.C. 3553).
+(6) 52.233-4, Applicable Law for Breach of Contract Claim (OCT 2004)(Public Laws 108-77 and 108-78 (19 U.S.C. 3805 note)).
+(b) The Contractor shall comply with the FAR clauses in this paragraph (b) that the Contracting Officer has indicated as being incorporated in this contract by reference to implement provisions of law or Executive orders applicable to acquisitions of commercial items:
+[Contracting Officer check as appropriate.]
+___ (1) 52.203-6, Restrictions on Subcontractor Sales to the Government (Jun 2020), with Alternate I (Oct 1995) (41 U.S.C. 4704 and 10 U.S.C. 2402).
+___ (2) 52.203-13, Contractor Code of Business Ethics and Conduct (Jun 2020) (41 U.S.C. 3509)).
+___ (3) 52.203-15, Whistleblower Protections under the American Recovery and Reinvestment Act of 2009 (Jun 2020) (Section 1553 of Pub. L. 111-5). (Applies to contracts funded by the American Recovery and Reinvestment Act of 2009.)
+___ (4) 52.203-17, Contractor Employee Whistleblower Rights and Requirement to Inform Employees of Whistleblower Rights (Jun 2020) (41 U.S.C. 4712) relating to whistleblower protections) (Deviation 2017-05)(Sept 2017).
+_XX_ (5) 52.204-10, Reporting Executive Compensation and First-Tier Subcontract Award (Jun 2020). (Pub. L. 109-282) (31 U.S.C. 6101 note).
+__ (6) [Reserved].
+__ (7) 52.204-14, Service Contract Reporting Requirements (Oct 2016) (Pub. L. 111-117, section 743 of Div. C).
+__ (8) 52.204-15, Service Contract Reporting Requirements for Indefinite-Delivery Contracts (Oct 2016) (Pub. L. 111-117, section 743 of Div. C).
+_XX_ (9) 52.209-6, Protecting the Government’s Interest When Subcontracting with Contractors Debarred, Suspended, or Proposed for Debarment. (Jun 2020) (31 U.S.C. 6101 note).
+__ (10) 52.209-9, Updates of Publicly Available Information Regarding Responsibility Matters (Oct 2018) (41 U.S.C. 2313).
+__ (11) [Reserved].
+__ (12)(i) 52.219-3, Notice of HUBZone Set-Aside or Sole-Source Award (Mar 2020) (15 U.S.C. 657a).
+__ (ii) Alternate I (Mar 2020) of 52.219-3.
+__ (13)(i) 52.219-4, Notice of Price Evaluation Preference for HUBZone Small Business Concerns (MAR 2020 (if the offeror elects to waive the preference, it shall so indicate in its offer) (15 U.S.C. 657a).
+__ (ii) Alternate I (MAR 2020) of 52.219-4.
+__ (14) [Reserved]
+_XX_ (15)(i) 52.219-6, Notice of Total Small Business Set-Aside (Nov 2020) (15 U.S.C. 644).
+__ (ii) Alternate I (Mar 2020) of 52.219-7.
+__ (16)(i) 52.219-7, Notice of Partial Small Business Set-Aside (Nov 2020) (15 U.S.C. 644).
+__ (ii) Alternate I (Oct 1995) of 52.219-7.
+__ (17) 52.219-8, Utilization of Small Business Concerns (Oct 2018) (15 U.S.C. 637(d)(2) and (3)).
+__ (18)(i) 52.219-9, Small Business Subcontracting Plan (Jun 2020) (15 U.S.C. 637(d)(4)).
+__ (ii) Alternate I (Nov 2016) of 52.219-9.
+__ (iii) Alternate II (Nov 2016) of 52.219-9.
+__ (iv) Alternate III (Jun 2020) of 52.219-9.
+__ (v) Alternate IV (Jun 2020) of 52.219-9.
+_XX_ (19)(i) 52.219-13, Notice of Set-Aside of Orders (Mar 2020) (15 U.S.C. 644(r)).
+__ (ii) Alternate I (Mar 2020) of 52.219-13.
+__ (20) 52.219-14, Limitations on Subcontracting (Mar 2020) (15 U.S.C. 637(a)(14)).
+__ (21) 52.219-16, Liquidated Damages—Subcontracting Plan (Jan 1999) (15 U.S.C. 637(d)(4)(F)(i)).
+__ (22) 52.219-27, Notice of Service-Disabled Veteran-Owned Small Business Set-Aside (Nov 2020) (15 U.S.C. 657 f).
+_XX_ (23) 52.219-28, (i) Post Award Small Business Program Representation (May 2020) (15 U.S.C. 632(a)(2)).
+(ii) Alternate I (MAR 2020) of 52.219-28.
+__ (24) 52.219-29, Notice of Set-Aside for, or Sole Source Award to, Economically Disadvantaged Women-Owned Small Business Concerns (Mar 2020) (15 U.S.C. 637(m)).
+__ (25) 52.219-30, Notice of Set-Aside for, or Sole Source Award to, Women-Owned Small Business Concerns Eligible Under the Women-Owned Small Business Program (Mar 2020) (15 U.S.C. 637(m)).
+_XX_ (26) 52.219-32, Orders Issued Directly Under Small Business Reserves (Mar 2020) (15 U.S.C. 644(r)).
+_XX_ (27) 52.219-33, Nonmanufacturer Rule (Mar 2020) (15 U.S.C. 637(a)(17)).
+_XX_ (28) 52.222-3, Convict Labor (June 2003) (E.O. 11755).
+_XX_ (29) 52.222-19, Child Labor—Cooperation with Authorities and Remedies (Jan 2020) (E.O. 13126). (Deviation 2020-11) (Aug 2020)
+_XX_ (30) 52.222-21, Prohibition of Segregated Facilities (Apr 2015).
+_XX_ (31) 52.222-26, Equal Opportunity (Sept 2016) (E.O. 11246).
+__ (32) 52.222-35, Equal Opportunity for Veterans (Jun 2020)(38 U.S.C. 4212).
+_XX_ (33) 52.222-36, Equal Opportunity for Workers with Disabilities (Jun 2020) (29 U.S.C. 793).
+__ (34) 52.222-37, Employment Reports on Veterans (JUN 2020) (38 U.S.C. 4212).
+__ (35) 52.222-40, Notification of Employee Rights Under the National Labor Relations Act (Dec 2010) (E.O. 13496).
+_XX_ (36)(i) 52.222-50, Combating Trafficking in Persons (Oct 2020) (22 U.S.C. chapter 78 and E.O. 13627).
+__ (ii) Alternate I (Mar 2015) of 52.222-50 (22 U.S.C. chapter 78 and E.O. 13627).
+__ (37) 52.222-54, Employment Eligibility Verification (OCT 2015). (Executive Order 12989). (Not applicable to the acquisition of commercially available off-the-shelf items or certain other types of commercial items as prescribed in 22.1803.)
+__ (38)(i) 52.223-9, Estimate of Percentage of Recovered Material Content for EPA–Designated Items (May 2008) (42 U.S.C. 6962(c)(3)(A)(ii)). (Not applicable to the acquisition of commercially available off-the-shelf items.)
+__ (ii) Alternate I (May 2008) of 52.223-9 (42 U.S.C. 6962(i)(2)(C)). (Not applicable to the acquisition of commercially available off-the-shelf items.)
+__ (39) 52.223-11, Ozone-Depleting Substances and High Global Warming Potential Hydrofluorocarbons (JUN 2016) (E.O. 13693).
+__ (40) 52.223-12, Maintenance, Service, Repair, or Disposal of Refrigeration Equipment and Air Conditioners (JUN 2016) (E.O. 13693).
+__ (41)(i) 52.223-13, Acquisition of EPEAT®-Registered Imaging Equipment (JUN 2014) (E.O.s 13423 and 13514).
+__ (ii) Alternate I (Oct 2015) of 52.223-13.
+__ (42)(i) 52.223-14, Acquisition of EPEAT®-Registered Televisions (JUN 2014) (E.O.s 13423 and 13514).
+__ (ii) Alternate I (Jun 2014) of 52.223-14.
+__ (43) 52.223-15, Energy Efficiency in Energy-Consuming Products (MAY 2020) (42 U.S.C. 8259b).
+__ (44)(i) 52.223-16, Acquisition of EPEAT®-Registered Personal Computer Products (OCT 2015) (E.O.s 13423 and 13514).
+__ (ii) Alternate I (Jun 2014) of 52.223-16.
+_XX_ (45) 52.223-18, Encouraging Contractor Policies to Ban Text Messaging While Driving (JUN 2020) (E.O. 13513).
+__ (46) 52.223-20, Aerosols (JUN 2016) (E.O. 13693).
+__ (47) 52.223-21, Foams (JUN 2016) (E.O. 13693).
+__ (48)(i) 52.224-3, Privacy Training (JAN 2017) (5 U.S.C. 552a).
+__ (ii) Alternate I (JAN 2017) of 52.224-3.
+__ (49) 52.225-1, Buy American—Supplies (Jan 2021) (41 U.S.C. chapter 83).
+__ (50)(i) 52.225-3, Buy American—Free Trade Agreements—Israeli Trade Act (Jan 2021) (19 U.S.C. 3301 note, 19 U.S.C. 2112 note, 19 U.S.C. 3805 note, 19 U.S.C. 4001 note, [19 U.S.C. chapter 29 (sections 4501-
+4732),] Pub. L. 103-182, 108-77, 108-78, 108-286, 108-302, 109-53, 109-169, 109-283, 110-138, 112-41, 112-42, and 112-43). (Deviation 2020-11) (Aug 2020)
+__ (ii) Alternate II (May 2014) of 52.225-3. (Deviation 2020-11) (Aug 2020)
+__ (iii) Alternate III (May 2014) of 52.225-3.
+__ (51) 52.225-5, Trade Agreements (OCT 2019) (19 U.S.C. 2501, et seq., 19 U.S.C. 3301 note). (DEVIATION 2020-11) (AUG 2020)
+_XX_ (52) 52.225-13, Restrictions on Certain Foreign Purchases (Feb 2021) (E.O.’s, proclamations, and statutes administered by the Office of Foreign Assets Control of the Department of the Treasury).
+__ (53) 52.225-26, Contractors Performing Private Security Functions Outside the United States (Oct 2016) (Section 862, as amended, of the National Defense Authorization Act for Fiscal Year 2008; 10 U.S.C. 2302 Note).
+__ (54) 52.226-4, Notice of Disaster or Emergency Area Set-Aside (Nov 2007) (42 U.S.C. 5150).
+__ (55) 52.229-12, Tax on Certain Foreign Procurements (Feb 2021).
+__ (56) 52.226-5, Restrictions on Subcontracting Outside Disaster or Emergency Area (Nov 2007) (42 U.S.C. 5150).
+__ (57) 52.232-29, Terms for Financing of Purchases of Commercial Items (Feb 2002) (41 U.S.C. 4505, 10 U.S.C. 2307(f)).
+__ (58) 52.232-30, Installment Payments for Commercial Items (Jan 2017) (41 U.S.C. 4505, 10 U.S.C. 2307(f)).
+_XX_ (59) 52.232-33, Payment by Electronic Funds Transfer—System for Award Management (Oct 2018) (31 U.S.C. 3332).
+__ (60) 52.232-34, Payment by Electronic Funds Transfer—Other than System for Award Management (Jul 2013) (31 U.S.C. 3332).
+__ (61) 52.232-36, Payment by Third Party (May 2014) (31 U.S.C. 3332).
+_XX_ (62) 52.232-40, Providing Accelerated Payments to Small Business Subcontractors (DEC 2013) (31 U.S.C. 3903 and 10 U.S.C. 2307). (Deviation 2020-05) (April 2020)
+__ (63) 52.239-1, Privacy or Security Safeguards (Aug 1996) (5 U.S.C. 552a).
+__ (64) 52.242-5, Payments to Small Business Subcontractors (JAN 2017)(15 U.S.C. 637(d)(13)).
+__ (65)(i) 52.247-64, Preference for Privately Owned U.S.-Flag Commercial Vessels (Feb 2006) (46 U.S.C. Appx. 1241(b) and 10 U.S.C. 2631).
+__ (ii) Alternate I (Apr 2003) of 52.247-64.
+__ (iii) Alternate II (Feb 2006) of 52.247-64.
+(c) The Contractor shall comply with the FAR clauses in this paragraph (c), applicable to commercial services, that the Contracting Officer has indicated as being incorporated in this contract by reference to implement provisions of law or Executive orders applicable to acquisitions of commercial items:
+[Contracting Officer check as appropriate.]
+__ (1) 52.222-17, Nondisplacement of Qualified Workers (May 2014)(E.O. 13495).
+__ (2) 52.222-41, Service Contract Labor Standards (Aug 2018) (41 U.S.C. chapter 67).
+__ (3) 52.222-42, Statement of Equivalent Rates for Federal Hires (May 2014) (29 U.S.C. 206 and 41 U.S.C. chapter 67).
+__ (4) 52.222-43, Fair Labor Standards Act and Service Contract Labor Standards-Price Adjustment (Multiple Year and Option Contracts) (Aug 2018) (29 U.S.C. 206 and 41 U.S.C. chapter 67).
+__ (5) 52.222-44, Fair Labor Standards Act and Service Contract Labor Standards—Price Adjustment (May 2014) (29 U.S.C. 206 and 41 U.S.C. chapter 67).
+__ (6) 52.222-51, Exemption from Application of the Service Contract Labor Standards to Contracts for Maintenance, Calibration, or Repair of Certain Equipment—Requirements (May 2014) (41 U.S.C. chapter 67).
+__ (7) 52.222-53, Exemption from Application of the Service Contract Labor Standards to Contracts for Certain Services—Requirements (May 2014) (41 U.S.C. chapter 67).
+__ (8) 52.222-55, Minimum Wages Under Executive Order 13658 (Nov 2020).
+__ (9) 52.222-62, Paid Sick Leave Under Executive Order 13706 (Jan 2017) (E.O. 13706).
+__ (10) 52.226-6, Promoting Excess Food Donation to Nonprofit Organizations (Jun 2020) (42 U.S.C. 1792).
+(d) Comptroller General Examination of Record. The Contractor shall comply with the provisions of this paragraph (d) if this contract was awarded using other than sealed bid, is in excess of the simplified acquisition threshold, and does not contain the clause at 52.215-2, Audit and Records—Negotiation.
+(1) The Comptroller General of the United States, or an authorized representative of the Comptroller General, shall have access to and right to examine any of the Contractor’s directly pertinent records involving transactions related to this contract.
+(2) The Contractor shall make available at its offices at all reasonable times the records, materials, and other evidence for examination, audit, or reproduction, until 3 years after final payment under this contract or for any shorter period specified in FAR subpart 4.7, Contractor Records Retention, of the other clauses of this contract. If this contract is completely or partially terminated, the records relating to the work terminated shall be made available for 3 years after any resulting final termination settlement. Records relating to appeals under the disputes clause or to litigation or the settlement of claims arising under or relating to this contract shall be made available until such appeals, litigation, or claims are finally resolved.
+(3) As used in this clause, records include books, documents, accounting procedures and practices, and other data, regardless of type and regardless of form. This does not require the Contractor to create or maintain any record that the Contractor does not maintain in the ordinary course of business or pursuant to a provision of law.
+(e)(1) Notwithstanding the requirements of the clauses in paragraphs (a), (b), (c), and (d) of this clause, the Contractor is not required to flow down any FAR clause, other than those in this paragraph (e)(1) in a subcontract for commercial items. Unless otherwise indicated below, the extent of the flow down shall be as required by the clause—
+(i) 52.203-13, Contractor Code of Business Ethics and Conduct (Jun 2020) (41 U.S.C. 3509).
+(ii) 52.203-19, Prohibition on Requiring Certain Internal Confidentiality Agreements or Statements (Jan 2017) (section 743 of Division E, Title VII, of the Consolidated and Further Continuing Appropriations Act, 2015 (Pub. L. 113-235) and its successor provisions in subsequent appropriations acts (and as extended in continuing resolutions)).
+(iii) 52.204-23, Prohibition on Contracting for Hardware, Software, and Services Developed or Provided by Kaspersky Lab and Other Covered Entities (Jul 2018) (Section 1634 of Pub. L. 115-91).
+(iv) 52.204-25, Prohibition on Contracting for Certain Telecommunications and Video Surveillance Services or Equipment. (Aug 2019) (Section 889(a)(1)(A) of Pub. L. 115-232).
+(v) 52.219-8, Utilization of Small Business Concerns (Oct 2018) (15 U.S.C. 637(d)(2) and (3)), in all subcontracts that offer further subcontracting opportunities. If the subcontract (except subcontracts to small business concerns) exceeds $700,000 ($1.5 million for construction of any public facility), the subcontractor must include 52.219-8 in lower tier subcontracts that offer subcontracting opportunities.
+(vi) 52.222-17, Nondisplacement of Qualified Workers (May 2014) (E.O. 13495). Flow down required in accordance with paragraph (l) of FAR clause 52.222-17.
+(vii) 52.222-21, Prohibition of Segregated Facilities (Apr 2015)
+(viii) 52.222-26, Equal Opportunity (Sept 2016) (E.O. 11246).
+(ix) 52.222-35, Equal Opportunity for Veterans (Jun 2020) (38 U.S.C. 4212).
+(x) 52.222-36, Equal Opportunity for Workers with Disabilities (Jun 2020) (29 U.S.C. 793).
+(xi) 52.222-37, Employment Reports on Veterans (Jun 2020) (38 U.S.C. 4212)
+(xii) 52.222-40, Notification of Employee Rights Under the National Labor Relations Act (Dec 2010) (E.O. 13496). Flow down required in accordance with paragraph (f) of FAR clause 52.222-40.
+(xiii) 52.222-41, Service Contract Labor Standards (Aug 2018) (41 U.S.C. chapter 67).
+(xiv) 52.222-50, Combating Trafficking in Persons (Oct 2020) (22 U.S.C. chapter 78 and E.O 13627).Alternate I (Mar 2015) of 52.222-50 (22 U.S.C. chapter 78 and E.O 13627).
+(xv) 52.222-51, Exemption from Application of the Service Contract Labor Standards to Contracts for Maintenance, Calibration, or Repair of Certain Equipment-Requirements (May 2014) (41 U.S.C. chapter 67).
+(xvi) 52.222-53, Exemption from Application of the Service Contract Labor Standards to Contracts for Certain Services-Requirements (May 2014) (41 U.S.C. chapter 67).
+(xvii) 52.222-54, Employment Eligibility Verification (Oct 2015) (E.O. 12989).
+(xviii) 52.222-55, Minimum Wages Under Executive Order 13658 (Nov 2020).
+(xix) 52.222-62, Paid Sick Leave Under Executive Order 13706 (Jan 2017) (E.O. 13706).
+(xx)(A) 52.224-3, Privacy Training (Jan 2017) (5 U.S.C. 552a).
+(B) Alternate I (Jan 2017) of 52.224-3.
+(xxi) 52.225-26, Contractors Performing Private Security Functions Outside the United States (Oct 2016) (Section 862, as amended, of the National Defense Authorization Act for Fiscal Year 2008; 10 U.S.C. 2302 Note).
+(xxii) 52.226-6, Promoting Excess Food Donation to Nonprofit Organizations (Jun 2020) (42 U.S.C. 1792). Flow down required in accordance with paragraph (e) of FAR clause 52.226-6.
+(xxiii) 52.247-64, Preference for Privately Owned U.S.-Flag Commercial Vessels (Feb 2006) (46 U.S.C. Appx. 1241(b) and 10 U.S.C. 2631). Flow down required in accordance with paragraph (d) of FAR clause 52.247-64.
+(2) While not required, the Contractor may include in its subcontracts for commercial items a minimal number of additional clauses necessary to satisfy its contractual obligations.
+(End of clause)
+FAR 52.212-4
+Contract Terms and Conditions-Commercial Items (Oct 2018) (DEVIATION 17-02)(AUG 2017)
+
+FAR 52.252-2
+Clauses Incorporated by Reference.
+Clauses Incorporated By Reference (Feb 1998)
+This contract incorporates one or more clauses by reference, with the same force and effect as if they were given in full text. Upon request, the Contracting Officer will make their full text available. Also, the full text of a clause may be accessed electronically at this/these address(es):
+https://www.acquisition.gov
+https://www.ecfr.gov
+https://uscode.house.gov
+(End of clause)
+CAR
+FOR FULL TEXT OF COMMERCE ACQUISITION CLAUSE OR PROVISIONS YOU MAY TO GO THE FOLLOWING WEBSITE
+https://www.ecfr.gov/cgi-bin/text- idx?sid=2d08a6e69af3b9bb1a7be4eae370d256&c=ecfr&tpl=/ecfrbrowse/Title48/48cfrv5_02.tpl#1300
+COMMERCE ACQUISITION REGULATIONS (CAR):
+
+
+CAR 1352.201-70
+Contracting Officer’s Authority
+
+CAR 1352.209-73
+Compliance with the Laws
+
+CAR 1352.209-74
+Organizational Conflict of Interest
+
+CAR 1352.246-70
+Place of acceptance
+Place of Acceptance (APR 2010)
+(a) Ray Parker and/or Ben Carlson or the duly authorized representative will accept supplies and services to be provided under this contract.
+(b) The place of acceptance will be:
+PACIFIC MARINE ENVIRONMENTAL LABORATORY (PMEL) 7600 SAND POINT WAY NE
+/R/PMEL
+SEATTLE WA 98115-6349
+POC:RAY PARKER (206)526-4578 or BEN CARLSON (206)526-4321
+(End of clause)
+NOAA ACUISITION MANUAL (NAM):
+
+
+NAM 1330-52.270-304
+NOAA ACQUISITION AND GRANTS OFFICE OMBUDSMAN (OCT 2016)
+(a) The NOAA Acquisition and Grants Office (AGO) Ombudsman is available to organizations to promote responsible and meaningful exchanges of information. Generally, the purpose of these exchanges will be to:
+1. Allow contractors to better prepare for and propose on business opportunities.
+2. Advise as to technologies and solutions within the marketplace that the Government may not be aware of, or is not fully benefiting.
+3. Identify constraints in transparency.
+(b) The AGO Ombudsman will objectively, reasonably, and responsibly collaborate with parties and recommend fair, impartial, and constructive solutions to the matters presented to him/her. Further, the AGO Ombudsman will maintain the reasonable and responsible confidentiality of the source of a concern, when such a request has been formally made by an authorized officer of an organization seeking to do business with, or already doing business with NOAA.
+(c) Before consulting with the AGO Ombudsman, interested parties must first address their concerns, issues, disagreements, and/or recommendations with the respective contracting officer for resolution. However, direct access to the AGO Ombudsman may be sought when an interested party questions the objectivity or equity of a contracting officer’s decision, or when there is a bona fide reason to believe that reasonable, responsible, and objective consideration will not be received from an assigned contracting officer.
+(d) There are several constraints to the scope of the AGO Ombudsman’s authority, for instance:
+1. Consulting with the AGO Ombudsman does not alter or postpone the timelines of any formal process (e.g., protests, claims, debriefings, employee employer actions, activities involving A76 competition performance decisions, judicial or congressional hearings, or proposal, amendment, modification or deliverable due dates).
+2. The AGO Ombudsman cannot participate in the evaluation of proposals, source selection processes, or the adjudication of protests or formal contract disputes.
+3. The AGO Ombudsman is not authorized to generate or alter laws, judicial decisions, rules, policies, or formal guidance.
+4. The AGO Ombudsman is not authorized to develop or alter opportunity announcements, solicitations, contracts, or their terms or conditions.
+5. The AGO Ombudsman cannot overrule the authorized decisions or determinations of the contracting officer.
+6. The AGO Ombudsman has no authority to render a decision that binds AGO, NOAA, the Department of Commerce, or the U.S. Government.
+7. The AGO Ombudsman is not NOAA’s agent relative to the service of magistrate or judicial process and cannot be used to extend service of process to another party (whether federal, public, or a private entity).
+(e) After review and analysis of a filed concern or recommendation, the AGO Ombudsman may refer the interested party to another more suitable Federal official for consideration. Moreover, concerns, disagreements, and/or recommendations that cannot be resolved by the AGO Ombudsman will need to be pursued through more formal venues.
+(f) The AGO Ombudsman is not to be contacted to request copies of forms and/or documents under the purview of a contracting officer. Such documents include Requests for Information, solicitations, amendments, contracts, modifications, or conference materials.
+(g) Questions regarding items (a) through (f) within this language shall be directed to Rafael Roman, NOAA AGO Ombudsman, at Rafael.Roman@noaa.gov.
+(End of Contract Language)
