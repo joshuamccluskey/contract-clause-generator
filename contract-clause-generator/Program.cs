@@ -2,6 +2,8 @@
 using System.IO;
 using System.Collections.Generic;
 using Newtonsoft.Json;
+using System.Net.Http;
+using System.Threading.Tasks;
 
 namespace contract_clause_generator
 {
@@ -10,27 +12,24 @@ namespace contract_clause_generator
 
         static void Main(string[] args)
         {
-            // Complete: Stretch: Read JSON files instead of templates        
-          contractClauseGenerator();
+                   
+          ContractClauseGenerator();
 
         }
 
-      public static void clauseJSONParserWriter(string path)
+      public static async Task ClauseJSONParserWriterAsync(string path)
         {
             string fileName = path;
             string jsonString = File.ReadAllText(fileName);
-            string clauseFilename = " ";
-            string username = " ";
-            string email = " ";
-            string phone = " ";
-            string comments = " ";
+            string clauseFilename;
+            string username;
+            string email;
+            string phone;
+            string comments;
+
+
+         
             
-
-
-            List <Clause> clauses = JsonConvert.DeserializeObject<List<Clause>>(jsonString);
-            DateTime timeDateNow = DateTime.Now;
-
-            Console.WriteLine("Thank you! 🙏 Please answer the following:");
             Console.WriteLine("Please enter your name");
             username = Console.ReadLine();
             Console.WriteLine("Please enter your email");
@@ -41,12 +40,16 @@ namespace contract_clause_generator
             comments = Console.ReadLine();
             Console.WriteLine("Please enter your file name");
             clauseFilename = Console.ReadLine();
-            Console.WriteLine("Your Clauses Are Being Generated 🤗🎊 🎉🙌 .....");
+            //HttpClient client = new HttpClient();
+            //string response = await client.GetStringAsync("https://contract-mock-api-1.herokuapp.com/ClausesAbove");
+            List<Clause> clauses = JsonConvert.DeserializeObject<List<Clause>>(jsonString);
+            DateTime timeDateNow = DateTime.Now;
+            Console.WriteLine("Thank you! 🙏 Your clauses are being generated ✍️⌨️ 📄💾 .....");
 
             string clauseFileLocaiton = "/Users/joshuamccluskey/Desktop/contract-clause-generator/contract-clause-generator/" + clauseFilename + ".txt";
             using (StreamWriter writer = new StreamWriter(clauseFileLocaiton))
             {
-                writer.Write($"Prepared by : {username}\nEmail: {email}\n Phone: {phone}\nDate: {timeDateNow}\n\n");
+                writer.Write($"Prepared by : {username}\nEmail: {email}\nPhone: {phone}\nDate: {timeDateNow}\n\n");
                 foreach (var clause in clauses)
                 {
 
@@ -59,7 +62,7 @@ namespace contract_clause_generator
 
 
 
-        public static void contractClauseGenerator()
+        public static void ContractClauseGenerator()
         {
 
             string question1;
@@ -110,7 +113,7 @@ namespace contract_clause_generator
                     {
                         //This will generrate the clauses needed for supply contracts that are above $35K
                         string path = "/Users/joshuamccluskey/Desktop/contract-clause-generator/contract-clause-generator/clausesAbove35K.json";
-                        clauseJSONParserWriter(path);
+                        ClauseJSONParserWriterAsync(path);
                         Console.WriteLine("Thank you for using Contract Clause Generator!!! Your clauses have been generated!!! 🤗🎊🎉🙌");
 
                     }
@@ -145,7 +148,7 @@ namespace contract_clause_generator
                         {
                             //This will generrate the clauses needed for supply contracts that are below $35K
                             string path = "/Users/joshuamccluskey/Desktop/contract-clause-generator/contract-clause-generator/clausesBelow35K.json";
-                            clauseJSONParserWriter(path);
+                            ClauseJSONParserWriterAsync(path);
                             Console.WriteLine("Thank you for using Contract Clause Generator!!! Your clauses have been generated!!! 🤗🎊🎉🙌");
                         }
                         else
