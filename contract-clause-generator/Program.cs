@@ -49,7 +49,7 @@ namespace contract_clause_generator
             string clauseFileLocaiton = "/Users/joshuamccluskey/Desktop/contract-clause-generator/contract-clause-generator/" + clauseFilename + ".txt";
             using (StreamWriter writer = new StreamWriter(clauseFileLocaiton))
             {
-                writer.Write($"Prepared by : {username}\nEmail: {email}\nPhone: {phone}\nDate: {timeDateNow}\n\n");
+                writer.Write($"Prepared by: {username}\nEmail: {email}\nPhone: {phone}\nDate: {timeDateNow}\n\n");
                 foreach (var clause in clauses)
                 {
 
