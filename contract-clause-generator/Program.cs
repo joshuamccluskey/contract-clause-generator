@@ -71,9 +71,9 @@ namespace contract_clause_generator
             string question4;
             string question5;
 
-            Console.WriteLine("Welcome to Clause Generator\n");
+            Console.WriteLine("Welcome to Proviso!👋\n");
             Console.WriteLine("Please answer the following questions\n");
-            Console.WriteLine("Once complete your clauses will be generated!\n");
+            Console.WriteLine("Once complete, your clauses will be generated!\n");
             Console.WriteLine("Is your purchase for supplies below $150K ?");
 
             question1 = Console.ReadLine();
@@ -85,7 +85,7 @@ namespace contract_clause_generator
                 question1 = question1.ToUpper();
             }
             if (question1.Equals("NO") || question1.Equals("N"))
-                Console.WriteLine("Contract Clause Generator Currently Doesn't Support Contracts Above $150K 😰⚠️‼️");
+                Console.WriteLine("Proviso Currently Doesn't Support Contracts Above $150K 😰⚠️‼️");
 
             if (question1.Equals("YES") || question1.Equals("Y"))
             {
@@ -114,12 +114,12 @@ namespace contract_clause_generator
                         //This will generrate the clauses needed for supply contracts that are above $35K
                         string path = "/Users/joshuamccluskey/Desktop/contract-clause-generator/contract-clause-generator/clausesAbove35K.json";
                         ClauseJSONParserWriterAsync(path);
-                        Console.WriteLine("Thank you for using Contract Clause Generator!!! Your clauses have been generated!!! 🤗🎊🎉🙌");
+                        Console.WriteLine("Thank you for using Proviso!!! Your clauses have been generated!!! 🤗🎊🎉🙌");
 
                     }
                     else
                     {
-                        Console.WriteLine("Please Use Your Government Purchase Card 💳 for this purchase. Thank you for using Contract Clause Generator!!!  🤗🎊🎉🙌 !");
+                        Console.WriteLine("Please Use Your Government Purchase Card 💳 for this purchase. Thank you for using Proviso!!!  🤗🎊🎉🙌 !");
                     }
                 }
                 else
@@ -149,11 +149,11 @@ namespace contract_clause_generator
                             //This will generrate the clauses needed for supply contracts that are below $35K
                             string path = "/Users/joshuamccluskey/Desktop/contract-clause-generator/contract-clause-generator/clausesBelow35K.json";
                             ClauseJSONParserWriterAsync(path);
-                            Console.WriteLine("Thank you for using Contract Clause Generator!!! Your clauses have been generated!!! 🤗🎊🎉🙌");
+                            Console.WriteLine("Thank you for using Proviso!!! Your clauses have been generated!!! 🤗🎊🎉🙌");
                         }
                         else
                         {
-                            Console.WriteLine("Please Use Your Government Purchase Card 💳 for this purchase  🤗🎊🎉🙌!");
+                            Console.WriteLine("Please Use Your Government Purchase Card 💳 Thank you for using Proviso!!!  🤗🎊🎉🙌 !");
                         }
 
                     }
